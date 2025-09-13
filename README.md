@@ -1,12 +1,12 @@
-# actividad-ML
+# Actividad-ML
 
-🎓 Predictor de Rendimiento Académico — ML + Streamlit (MVP)
+# 🎓 Predictor de Rendimiento Académico — ML + Streamlit (MVP)
 Objetivo: predecir el GPA de estudiantes para:
 Estudiantes: recibir un mensaje motivacional y acciones concretas de mejora.
 Coordinadores: priorizar a quién apoyar (vista por lote + Top-N).
 Ética: no usamos variables sensibles en el modelo; solo se emplean para auditoría interna de errores por subgrupos.
 
-# requirements.txt incluye:
+# Requirements.txt incluye:
 pandas
 numpy
 scikit-learn
