@@ -1,9 +1,8 @@
-"""
-App MVP con dos vistas:
-- Estudiante: predicción de GPA + mensaje motivacional + tips.
-- Coordinador: carga CSV (sin sensibles para el modelo) -> lote de predicciones,
-  distribución de riesgos y TOP-N estudiantes a priorizar.
-"""
+
+# Añadir el directorio raíz del proyecto al sys.path usando utilitario
+from src.utils_path import add_project_root_to_path
+add_project_root_to_path()
+
 import io
 import pandas as pd
 import streamlit as st

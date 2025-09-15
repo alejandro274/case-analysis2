@@ -5,6 +5,11 @@ Entrena un modelo de regresión para el GPA con un Pipeline:
 - RandomForestRegressor
 Guarda el artefacto en models/gpa_model.joblib
 """
+
+# Añadir el directorio raíz del proyecto al sys.path usando utilitario
+from src.utils_path import add_project_root_to_path
+add_project_root_to_path()
+
 import os
 import joblib
 import pandas as pd
