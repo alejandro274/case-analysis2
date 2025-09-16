@@ -18,7 +18,7 @@ tab1, tab2 = st.tabs(["Estudiante", "Coordinador"])
 
 # -------------------- Vista Estudiante --------------------
 with tab1:
-    st.subheader("Vista Estudiante (motivacional)")
+    st.subheader("Vista Estudiante")
     col1, col2 = st.columns(2)
 
     with col1:
