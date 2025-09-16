@@ -4,7 +4,7 @@
 
 import os
 import pandas as pd
-from src.config import (
+from config import (
     RAW_DATA_PATH, PROCESSED_DATA_PATH, FEATURES, TARGET,
     SENSITIVE, PERCENT_TO_UNIT, HUNDRED_TO_UNIT
 )

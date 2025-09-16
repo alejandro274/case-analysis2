@@ -7,9 +7,6 @@ Guarda el artefacto en models/gpa_model.joblib
 """
 
 # Añadir el directorio raíz del proyecto al sys.path usando utilitario
-from src.utils_path import add_project_root_to_path
-add_project_root_to_path()
-
 import os
 import joblib
 import pandas as pd
@@ -20,7 +17,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
 
-from src.config import PROCESSED_DATA_PATH, MODEL_DIR, MODEL_PATH, FEATURES, TARGET
+from config import PROCESSED_DATA_PATH, MODEL_DIR, MODEL_PATH, FEATURES, TARGET
 
 def main():
     if not os.path.exists(PROCESSED_DATA_PATH):
