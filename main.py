@@ -12,7 +12,7 @@ from src.predict import load_model, predict_one, map_gpa_to_grade
 from src.recommendations import student_message, actionable_tips
 
 st.set_page_config(page_title="Predictor Académico", layout="centered")
-st.title("🎓 Predictor de Rendimiento Académico — MVP Ético")
+st.title("🎓 Predictor de Rendimiento Académico")
 
 tab1, tab2 = st.tabs(["Estudiante", "Coordinador"])
 
